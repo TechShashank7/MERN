@@ -224,15 +224,15 @@ server.listen(3000, () => {
 
 // Hashing a password using crypto module
 
-const crypto = require("crypto");
+// const crypto = require("crypto");
 
-const password = "mypassword";
+// const password = "mypassword";
 
-const hash = crypto.createHash("sha256")
-    .update(password)
-    .digest("binary");
+// const hash = crypto.createHash("sha256")
+//     .update(password)
+//     .digest("binary");
 
-console.log(hash);
+// console.log(hash);
 
 // Generating a random token using crypto module
 // const crypto = require("crypto");
@@ -244,3 +244,12 @@ console.log(hash);
 // console.log(generateToken());
 
 
+const app = require("express");
+
+app.get("/singup", (req, res) => {
+    res.send("Hello World from Express");
+});
+
+app.listen(3000, () => {
+    console.log("Server is running at http://localhost:3000");
+});

@@ -1,9 +1,9 @@
-const crypto = require("crypto");
+const app = require("express");
 
-const password = "mypassword";
+app.get("/singup", (req, res) => {
+    res.send("Hello World from Express");
+});
 
-const hash = crypto.createHash("sha256")
-    .update(password)
-    .digest("binary");
-
-console.log(hash);
+app.listen(3000, () => {
+    console.log("Server is running at http://localhost:3000");
+});

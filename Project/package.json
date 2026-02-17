@@ -1,0 +1,27 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TechShashank7/MERN.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/TechShashank7/MERN/issues"
+  },
+  "homepage": "https://github.com/TechShashank7/MERN#readme"
+}
